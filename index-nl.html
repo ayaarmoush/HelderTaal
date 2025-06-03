@@ -1,45 +1,109 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>HelderTaal - Begrijpelijke taal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            direction: ltr;
-            background-color: #f5f5f5;
-            padding: 40px;
-        }
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            padding: 30px;
-            max-width: 600px;
-            margin: auto;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        button {
-            background-color: #008CBA;
-            color: white;
-            padding: 12px 24px;
-            margin-top: 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        button:hover {
-            background-color: #007B9E;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HelderTaal - Tolkdiensten</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf6f0;
+    }
+
+    header {
+      background-color: #5c3d2e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .lang-switch {
+      background-color: orange;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-left: 5px solid #5c3d2e;
+      box-shadow: 0 0 5px #ccc;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #5c3d2e;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: '📌 ';
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f4eae2;
+      color: #333;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welkom bij HelderTaal</h1>
-        <p>Wij gebruiken eenvoudige en duidelijke taal, zodat iedereen goed kan begrijpen.</p>
-        <p>Ons doel is om communicatie makkelijker te maken, vooral voor mensen die moeite hebben met complexe teksten.</p>
-        <button onclick="window.location.href='index.html'">Naar Arabisch</button>
-    </div>
+
+  <header>
+    <h1>Duidelijke woorden, sterke verbinding</h1>
+    <a href="index-ar.html" class="lang-switch">AR</a>
+  </header>
+
+  <section>
+    <h2>Diensten</h2>
+    <p>Wij bieden verschillende professionele tolkdiensten aan, afhankelijk van uw behoefte en situatie:</p>
+    <ul>
+      <li>Telefonische tolkdienst – voor snelle communicatie op afstand.</li>
+      <li>Op locatie tolken – persoonlijk aanwezig bij afspraken en bijeenkomsten.</li>
+      <li>Simultaan tolken – gelijktijdige vertaling bij officiële of drukke evenementen.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Over ons</h2>
+    <p>
+      Mijn naam is Aya Armoush, moeder van twee kinderen. Ik ben afgestudeerd in MBO 4 Apothekersassistent en MBO 2 Financiële Administratie.
+      Sinds 2016 werk ik als tolk en heb ik ervaring opgebouwd in het ondersteunen van communicatie tussen Arabisch en Nederlands sprekenden.
+    </p>
+    <p>
+      Mijn doel is om mensen te helpen elkaar beter te begrijpen en een brug te vormen tussen verschillende culturen en talen.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>📞 06 4827 7448<br />
+       📧 aarmoush18@gmail.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 HelderTaal. Alle rechten voorbehouden.
+  </footer>
+
 </body>
 </html>
