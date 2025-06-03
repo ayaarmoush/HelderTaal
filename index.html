@@ -1,49 +1,88 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>HelderTaal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>هيلدر تال - خدمات الترجمة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      background-color: #f5f5f5;
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      direction: rtl;
     }
-
-    h1 {
-      color: #333;
-      margin-bottom: 30px;
-    }
-
-    .button-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .lang-button {
-      padding: 15px 25px;
-      font-size: 18px;
+    header {
+      background-color: #5d2a2a;
       color: white;
-      background-color: #007bff;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background-color 0.3s;
+      padding: 20px;
+      text-align: center;
     }
-
-    .lang-button:hover {
-      background-color: #0056b3;
+    .lang-switch {
+      background-color: orange;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      margin: 10px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #5d2a2a;
+    }
+    ul {
+      padding-right: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>مرحبًا بك في HelderTaal</h1>
-  <div class="button-container">
-    <a class="lang-button" href="index-ar.html">اللغة العربية</a>
-    <a class="lang-button" href="index-nl.html">اللغة الهولندية</a>
-  </div>
+
+  <header>
+    <h1>كلمات واضحة، تواصل قوي</h1>
+    <a href="index-nl.html" class="lang-switch">NL</a>
+  </header>
+
+  <section>
+    <h2>الخدمات</h2>
+    <ul>
+      <li>📞 ترجمة فورية عبر الهاتف - تقديم خدمات الترجمة السريعة والمهنية في المكالمات الهاتفية.</li>
+      <li>📍 الترجمة في الموقع - الحضور إلى الموقع لتقديم ترجمة دقيقة ومباشرة.</li>
+      <li>⚡ الترجمة الفورية - دعم فوري في الاجتماعات والفعاليات باستخدام تقنيات الترجمة الفورية.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>من نحن</h2>
+    <p>
+      أنا آية عرمش، مترجمة محترفة وأم لطفلين. حاصلة على شهادة MBO4 في مساعد صيدلي وMBO2 في الإدارة المالية. أعمل في مجال الترجمة منذ عام 2016، ولدي خبرة واسعة في التعامل مع مواقف متعددة، سواء في الترجمة الشفوية أو الفورية.
+      هدفي هو تسهيل التواصل بين الناس ومساعدتهم على فهم بعضهم البعض بشكل أفضل في المواقف الحساسة والمهمة.
+    </p>
+  </section>
+
+  <section>
+    <h2>اتصل بنا</h2>
+    <p>📞 06 4827 7448</p>
+    <p>📧 aarmoush18@gmail.com</p>
+  </section>
+
+  <footer>
+    © 2025 HelderTaal
+  </footer>
+
 </body>
 </html>
